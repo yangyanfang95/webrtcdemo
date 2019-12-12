@@ -1,0 +1,17 @@
+{
+  "name": "video",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "WebRTC",
+    "demo"
+  ],
+  "author": "",
+  "devDependencies": {
+    "electron": "^6.0.3"
+  }
+}

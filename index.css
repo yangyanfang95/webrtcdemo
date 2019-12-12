@@ -1,0 +1,46 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+video {
+    width: 45%;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+
+video#local {
+    margin-right: 20px;
+}
+
+button {
+    color: #fff;
+    background-color: #52c41a;
+    border: 1px solid #52c41a;
+    border-radius: 4px;
+    padding: 0 15px;
+    height: 32px;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+}
+
+button:hover {
+    background-color: #73d13d;
+    border-color: #73d13d;
+}
+
+button:not(:last-child) {
+    margin-right: 20px;
+}
+
+button[disabled] {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: #f5f5f5;
+    border-color: #d9d9d9;
+    cursor: not-allowed;
+}
+
+button[disabled]:hover {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: #f5f5f5;
+}
